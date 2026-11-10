@@ -2,6 +2,14 @@
   "name": "ghasedak-mcp",
   "version": "0.1.0",
   "description": "Local MCP server for the Ghasedak SMS API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BehdadAbadian/ghasedak-mcp.git"
+  },
+  "homepage": "https://github.com/BehdadAbadian/ghasedak-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/BehdadAbadian/ghasedak-mcp/issues"
+  },
   "type": "module",
   "bin": {
     "ghasedak-mcp": "src/index.js"
