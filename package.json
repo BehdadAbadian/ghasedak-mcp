@@ -1,0 +1,26 @@
+{
+  "name": "ghasedak-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP server for the Ghasedak SMS API",
+  "type": "module",
+  "bin": {
+    "ghasedak-mcp": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "zod": "^4.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "ghasedak",
+    "sms",
+    "otp"
+  ],
+  "license": "MIT"
+}
